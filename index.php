@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>R. Mackintosh</title>
+        <meta name="description" content="Bienvenido a R. Mackintosh, Agente de Liquidación y Negociación Propio con casi 100 años de experiencia en el Mercado de Capitales.">
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="static/bootstrap-4.1.3-dist/css/bootstrap.min.css">
+        <!-- STYLES -->
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/fixed.css">
+        <link rel="stylesheet" href="static/css/header.css">
+        <!-- LOGO -->
+        <link rel="shortcut icon" type="image/x-icon" href="static/img/logo_titulo.png">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/8ca6f1cadf.js" crossorigin="anonymous"></script>
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- MATERIALIZE -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+        <meta name="keywords" content="mackintosh, r. mackintosh, R. Mackintosh, rmackintosh, bolsa, acciones, futuros, cauciones, opciones, obligaciones, cedears">
+        <meta property="og:title" content="R. Mackintosh">
+        <meta property="og:description" content="R. Mackintosh. Casi 100 años de experiencia en el Mercado de Capitales.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://rmackintosh.com.ar">
+    </head>
+    
+    <body>
+        
+        <header id="header">
+            <a href="#home" class="header__logo"><img src="static/img/logo.jpg" alt=""></a>
+
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+                    
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                    
+                    <div class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="static/img/logo.jpg" alt="">
+                        </div>
+                        
+                        <div>
+                            <a href="#" class="nav__name">R. Mackintosh</a>
+                        </div>
+                    </div>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+                            <li class="nav__item"><a href="#features" class="nav__link">Servicios</a></li>
+                            <li class="nav__item"><a href="#about-us" class="nav__link">Nosotros</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                            <li class="nav__item"><a href="https://www.byma.com.ar/acciones/panel/lideres" target="_blank" class="nav__link">Cotizaciones</a></li>
+                            <li class="nav__item"><a href="static/pdf/aranceles.pdf" target="_blank" class="nav__link">Aranceles</a></li>
+                            <li class="nav__item"><a href="https://inversor.sba.com.ar/?180" target="_blank" class="nav__link">Tenencia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            
+            <section id="home">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active" style="background-image: url(static/img/hero1.jpg);">
+                            <div class="carousel-caption text-center">
+                                <h1>Bienvenido <br class="mobile-break1">a<br class="mobile-break2"> R. Mackintosh</h1>
+                                <a href="#contact" class="btn btn-outline-light btn-lg">Contacto</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url(static/img/hero2.jpg);">
+                            <div class="carousel-caption text-center">
+                                <h1>Atención personalizada</h1>
+                                <a href="#contact" class="btn btn-outline-light btn-lg">Contacto</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url(static/img/hero3.jpg);">
+                            <div class="carousel-caption text-center">
+                                <h1>Desde <span class="fs-bigger">1923</span> en el Mercado de Capitales</h1>
+                                <a href="#contact" class="btn btn-outline-light btn-lg">Contacto</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url(static/img/hero4.jpg);">
+                            <div class="carousel-caption text-center">
+                                <h1>Seguridad, Confianza y Transparencia</h1>
+                                <a href="#contact" class="btn btn-outline-light btn-lg">Contacto</a>
+                            </div>
+                        </div>
+                        <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <span class="anchor" id="features"></span>
+            <section class="features-container">
+                <h2 class="features__title uppercase">Nuestros servicios</h2>
+                <div class="features">
+                    <div class="feature__box feature__box1">
+                        <i class="fas fa-street-view"></i>
+                        <h4 class="feature__box-title1 uppercase">Asesoramiento bursátil personalizado</h4>
+                        <p class="feature__box-description feature__box-description1">Consideramos un pilar fundamental de nuestra organización el asesoramiento y seguimiento de nuestros
+                            clientes en cuanto precios, tendencias y oportunidades de acuerdo al perfil de cada cliente.</p>
+                    </div>
+                    <div class="feature__box feature__box2">
+                        <i class="fas fa-chart-line"></i>
+                        <h4 class="feature__box-title2 uppercase">Acciones</h4>
+                        <p class="feature__box-description feature__box-description2">Destinado a inversores interesados en compañías que cotizan en el mercado argentino.</p>
+                    </div>
+                    <div class="feature__box feature__box3">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <h4 class="feature__box-title3 uppercase">Títulos Públicos</h4>
+                        <p class="feature__box-description feature__box-description3">Instrumentos de renta fija destinado a inversores que buscan anticipar el flujo de fondos con un horizonte de mediano y largo plazo.</p>
+                    </div>
+                    <div class="feature__box feature__box4">
+                        <i class="fas fa-globe"></i>
+                        <h4 class="feature__box-title4 uppercase">CEDEARS</h4>
+                        <p class="feature__box-description feature__box-description4">Permite invertir de forma fácil y en pesos en el mercado local con las principales empresas internacionales del mundo.</p>
+                    </div>
+                    <div class="feature__box feature__box5">
+                        <i class="far fa-calendar-alt"></i>
+                        <h4 class="feature__box-title5 uppercase">Cauciones</h4>
+                        <p class="feature__box-description feature__box-description5">Destinada a los inversores conservadores. Es una operación similar al Plazo fijo, tanto en pesos como en dólares con atractivas tasas.</p>
+                    </div>
+                    <div class="feature__box feature__box6">
+                        <i class="fas fa-money-bill"></i>
+                        <h4 class="feature__box-title6 uppercase">Opciones</h4>
+                        <p class="feature__box-description feature__box-description6">Destinado a inversores que buscan cobertura o apalancamiento. Se otorga al inversor el derecho a realizar -o
+                            no- una operación futura sobre un activo en un precio y plazo determinados.</p>
+                    </div>
+                    <div class="feature__box feature__box7">
+                        <i class="fas fa-user-shield"></i>
+                        <h4 class="feature__box-title7 uppercase">Obligaciones Negociables</h4>
+                        <p class="feature__box-description feature__box-description7">Esta operatoria busca menos riesgo en el portafolio del inversor. Son instrumentos privados emitidos por
+                            empresas, cooperativas y asociaciones civiles constituidas en el país.</p>
+                    </div>
+                    <div class="feature__box feature__box8">
+                        <i class="fas fa-file-contract"></i>
+                        <h4 class="feature__box-title8 uppercase">Futuros</h4>
+                        <p class="feature__box-description feature__box-description8">Permiten dar previsibilidad al portafolio del inversor. Son los contratos mediante el cual el inversor se
+                            compromete a comprar o vender un activo subyacente en un precio y plazo determinados.</p>
+                    </div>
+                    <div class="feature__box feature__box9">
+                        <i class="fas fa-people-arrows"></i>
+                        <h4 class="feature__box-title9 uppercase">Préstamo de Valores</h4>
+                        <p class="feature__box-description feature__box-description9">Instrumento por el cual se transfieren temporalmente valores negociables a un tomador, quien al
+                            vencimiento está obligado a devolver los valores negociables más la contraprestación pactada.</p>
+                    </div>
+                </div>
+            </section>
+            <span class="anchor" id="about-us"></span>
+            <section class="about-us__container">
+                <div class="about-us">
+                    <div class="about-us__box">
+                        <img src="static/img/aboutUs.png" class="about-us__img" alt="">
+                        <div class="about-us__container">
+                            <h3 class="about-us__title uppercase">Sobre nosotros</h3>
+                            <h4 class="about-us__description">La firma fue fundada en el año 1923 por el señor Julián Eduardo Mackintosh. En la actualidad es presidida por Raul Mackintosh (Presidente) y Daniel Mackintosh (Vicepresidente).<br>
+                                <br>
+                                Desde su inauguración, está dedicada al quehacer bursátil, canalizando las inversiones  en activos de Renta Fija y Variable como así también en Derivados y Futuros. <br>
+                                <br>
+                                La transparencia, la seriedad, la confidencialidad y la atención personalizada son los principales valores que nos avalan como Agente de Liquidación y Negociación Propio, a través de los casi 100 años de actividad ininterrumpida en el Mercado de Capitales. <br>
+                                <br>
+                                Nuestro objetivo es optimizar el rendimiento del Portafolio de nuestros clientes, brindando asesoramiento e información. 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.762630851139!2d-58.38281047399886!3d-34.59934007968793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacbe5d67947%3A0x80864cc17274d00c!2sMaip%C3%BA%20692%2C%20C1006%20ACH%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1607966940083!5m2!1sen!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+            <section class="logos">
+                <div class="logo logo1">
+                    <a href="https://www.byma.com.ar/" target="_blank">
+                        <img src="static/img/footer1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="logo logo2">
+                    <a href="http://www.cadab.org.ar/home.php?v=1" target="_blank">
+                        <img src="static/img/footer2.png" alt="">
+                    </a>
+                </div>
+                <div class="logo logo3">
+                    <a href="https://www.argentina.gob.ar/cnv" target="_blank">
+                        <img src="static/img/footer3.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+            <span class="anchor" id="contact"></span>
+            <footer>
+                <div class="contact">
+                    <span class="anchor" id="form-span"></span>
+                    <div class="contact__box">
+                        <div class="contact__form">
+                            <form action="send_mail.php" method="post" class="form">
+                                <div class="form__header">
+                                    <h3 class="form__title uppercase">Consultas</h3>
+                                </div>
+                                <?php
+                                if (!isset($_GET['contact'])) {
+                                }
+                                else {
+                                    $contactCheck = $_GET['contact'];
+                                    if ($contactCheck == "empty") {
+                                        echo "<div class='contact-message-box'><p class='contact-message error'>Debe completar todos los campos.</p></div>";
+                                    }
+                                    elseif ($contactCheck == "success") {
+                                        echo "<div class='contact-message-box'><p class='contact-message success'>Gracias por contactarse con nosotros. Le responderemos a la brevedad.</p></div>";
+                                    }
+                                }
+                                ?>
+                                <div class="form-item">
+                                    <input type="text" class="form-input" name="name" placeholder="Nombre" aria-label="nombre" required minlength="2">
+                                </div>
+    
+                                <div class="form-item">
+                                    <input type="number" class="form-input" name="telefono" placeholder="Teléfono (opcional)" aria-label="telefono" minlength="6">
+                                </div>
+    
+                                <div class="form-item">
+                                    <input type="text" class="form-input" name="email" placeholder="Email" aria-label="email" required minlength="4">
+                                </div>
+                                
+                                <div class="form-item">
+                                    <textarea class="form-input" name="message" placeholder="Mensaje" aria-label="mensaje" required minlength="4"></textarea>
+                                </div>
+                                
+                                <div class="form__item">
+                                    <input type="hidden" class="form__input" id="form_name" name="subject" value="Enviado desde www.rmackintosh.com.ar" aria-label="subject" required minlength="2">
+                                </div>
+                                
+                                <button class="form-button uppercase g-recaptcha" type="submit" name="submit" id="submit">Enviar</button>
+                            </form>    
+                        </div>
+                        <div class="contact__container">
+                            <div class="contact__box-info">
+                                <div class="contact__info-box">
+                                    <h3 class="contact__title uppercase">Ubicación</h3>
+                                    <h4 class="contact__description">Maipú 692, Piso 5º, Of. "A", Ciudad Autónoma de Buenos Aires</h4>
+                                </div>
+                                <div class="contact__info-box">
+                                    <h3 class="contact__title uppercase">Email</h3>
+                                    <h4 class="contact__description">rmackintosh@rmackintosh.com.ar</h4>
+                                </div>
+                                <div class="contact__info-box">
+                                    <h3 class="contact__title uppercase">Teléfonos</h3>
+                                    <h4 class="contact__description">4326 9417 (Tel-Fax)</h4>
+                                    <h4 class="contact__description">4393 7347</h4>
+                                </div>
+                                <div class="contact__info-box">
+                                    <h3 class="contact__title uppercase">Legales</h3>
+                                    <h4 class="contact__description"><a target="_blank" href="static/pdf/codigo_conducta.pdf">Código de conducta</a></h4>
+                                    <h4 class="contact__description"><a target="_blank" href="static/pdf/aranceles.pdf">Aranceles</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <!-- IONICONS -->
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+        <!-- JQUERY -->
+        <script src="static/js/jquery-3.3.1.min.js"></script>
+        <!-- BOOTSTRAP JS-->
+        <script src="static/bootstrap-4.1.3-dist/js/bootstrap.bundle.js"></script>
+        <!-- HIDE MENU -->
+        <script src="static/js/menu.js"></script>
+    </body>    
+</html>
