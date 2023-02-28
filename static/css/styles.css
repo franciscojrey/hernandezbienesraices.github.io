@@ -210,11 +210,30 @@ p:last-child {
 }
 
 .features__title {
-    margin-bottom: 2em;
+    margin-bottom: .5em;
     font-size: 1.3rem;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+.features__subtitle {
+    margin-bottom: 4em;
+    font-size: .8rem;
     font-family: Raleway-Light;
     letter-spacing: 2px;
     line-height: 1.5em;
+    color: var(--clr-grey);
+}
+
+.features__subtitle a {
+    color: #ff0000;
+    text-decoration: none;
+    transition: color .5s ease-in-out;
+}
+
+.features__subtitle a:hover {
+    color: #ff5656;
 }
 
 .feature__box1 { grid-area: box1; }
@@ -317,7 +336,6 @@ p:last-child {
     margin: 0 auto;
     grid-template-columns: 1fr;
     grid-template-areas: 
-    "img"
     "container"
 }
 
@@ -350,7 +368,7 @@ p:last-child {
 /* --------------- FOOTER START --------------- */
 
 footer {
-    background-color: #ada59e;
+    background-color: #ffffff;
 }
 
 .contact {
@@ -392,8 +410,8 @@ footer {
 
 .form__title {
     font-size: 1.3rem;
-    font-family: Raleway-Light;
-    color: #ada59e;
+    font-family: Raleway;
+    color: rgb(255, 50, 50);
     letter-spacing: 2px;
     font-weight: bolder;
     line-height: 1.5em;
@@ -430,7 +448,7 @@ footer {
 }
 
 .form-input:focus::placeholder {
-    color: #CEC7C1;
+    color: rgb(168, 168, 168);
     opacity: 0.85;
 }
 
@@ -444,20 +462,20 @@ textarea {
     letter-spacing: 2px;
     width: 100%;
     border-radius: 2px;
-    border: 1px solid #ada59e;
+    border: 1px solid #ff0000;
     padding: 1.5em;
     margin: 5em auto 0 auto;
     /* Ver si el transition está bien acá*/
     transition: 400ms ease-in-out;
-    background-color: #ada59e;
-    color: var(--clr-white);
+    color: red;
     font-family: Raleway-Light;
+    background-color: white;
 }
 
 .form-button:hover {
-    background-color: #8a817a;
-    border: 1px solid #8a817a;
+    background-color: #ff0000;
     cursor: pointer;
+    color: white;
 }
 
 .contact__container {
@@ -478,7 +496,7 @@ textarea {
 .contact__title {
     font-size: 1.3rem;
     font-family: Raleway;
-    color: var(--clr-white);
+    color: rgb(255, 50, 50);
     letter-spacing: 2px;
     font-weight: bolder;
     margin-bottom: .5em;
@@ -486,11 +504,12 @@ textarea {
 }
 
 .contact__description {
-    color: var(--clr-white);
-    font-family: Colfax;
+    color: var(--clr-grey);
+    font-family: Raleway-Light;
     font-size: .7rem;
     margin-bottom: .3em;
-    font-weight: lighter;
+    letter-spacing: 2px;
+    line-height: 1.5em;
 }
 
 .contact__description a {
@@ -633,9 +652,9 @@ textarea {
     }
 
     .about-us__box {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1fr);
         grid-template-areas: 
-        "img container"
+        "container"
     }
 
     .about-us__title {
