@@ -200,12 +200,6 @@ p:last-child {
     "box1"
     "box2"
     "box3"
-    "box4"
-    "box5"
-    "box6"
-    "box7"
-    "box8"
-    "box9"
 }
 
 .features__title {
@@ -214,6 +208,7 @@ p:last-child {
     font-family: Raleway;
     letter-spacing: 2px;
     line-height: 1.5em;
+
 }
 
 .features__subtitle {
@@ -238,16 +233,11 @@ p:last-child {
 .feature__box1 { grid-area: box1; }
 .feature__box2 { grid-area: box2; }
 .feature__box3 { grid-area: box3; }
-.feature__box4 { grid-area: box4; }
-.feature__box5 { grid-area: box5; }
-.feature__box6 { grid-area: box6; }
-.feature__box7 { grid-area: box7; }
-.feature__box8 { grid-area: box8; }
-.feature__box9 { grid-area: box9; }
 
 .feature__box {
+    border-radius:5px;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 320px;
     text-align: left;
     -webkit-box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
     -moz-box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
@@ -277,10 +267,14 @@ p:last-child {
     padding-top: .5em;
     grid-area: title;
     letter-spacing: 4px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 .feature__box-description {
     font-family: Raleway-Light;
+    
     padding-top: 1em;
     grid-area: description;
     font-size: .7rem;
@@ -396,12 +390,13 @@ footer {
 }
 
 .form {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     max-width: 500px;
     padding: 1.5em;
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-radius: 3px;
     text-align: left;
     background-color: var(--clr-white);
     margin: 0 auto;
@@ -666,45 +661,6 @@ textarea {
 
     /* --------------- ABOUT-US BIG SCREEN END --------------- */
 
-    /* --------------- FEATURES BIG SCREEN START --------------- */
-
-    .features {
-        padding: 0 2em;
-        max-width: 810px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        "box1 box2"
-        "box3 box4"
-        "box5 box6"
-        "box7 box8"
-        "box9 ."
-    }
-    .features__title {
-        font-size: 2rem;
-    }
-
-    .feature__box {
-        grid-template-rows: 3.5em;
-        padding: 1.3em;
-        grid-template-columns: 2fr;
-        grid-column-gap: 1em;
-        grid-template-areas: 
-        "picture title"
-        ". description"
-    }
-
-    .feature__box h4 {
-        padding-top: 0;
-        font-size: .8rem;
-    }
-    
-    .feature__box-description {
-        padding: 0;
-        font-size: .7rem;
-        letter-spacing: 1px;
-    }
-
-    /* --------------- FEATURES BIG SCREEN END --------------- */
 
     /* --------------- FOOTER BIG SCREEN START --------------- */
     
@@ -770,6 +726,68 @@ textarea {
     
 }
 
+@media only screen and (min-width: 980px) {
+
+
+    /* --------------- FEATURES BIG SCREEN START --------------- */
+
+    .features {
+        padding: 0 2em;
+        max-width: 910px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "box1 box2"
+        "box3 ."
+    }
+    .features__title {
+        font-size: 2rem;
+    }
+
+    .feature__box {
+        max-width: 400px;
+        grid-template-rows: 3.5em;
+        padding: 1.3em;
+        grid-template-columns: 2fr;
+        grid-column-gap: 1em;
+        grid-template-areas: 
+        "picture title"
+        ". description"
+    }
+
+    .feature__box h4 {
+        padding-top: 0;
+        font-size: .8rem;
+    }
+    
+    .feature__box-description {
+        padding: 0;
+        font-size: .7rem;
+        letter-spacing: 1px;
+        margin-top: 2em;
+    }
+
+    /* --------------- FEATURES BIG SCREEN END --------------- */
+
+}
+
+@media only screen and (min-width: 1040px) {
+
+
+    /* --------------- FEATURES BIG SCREEN START --------------- */
+
+    .features-container {
+        padding: 0;
+    }
+    
+    .contact {
+        padding: 0 4em 4em 4em;
+    }
+
+
+    /* --------------- FEATURES BIG SCREEN END --------------- */
+
+}
+
 @media only screen and (min-width: 1200px) {
 
     /* --------------- CONTACT BIG SCREEN START --------------- */
@@ -797,21 +815,10 @@ textarea {
         padding: 0 3em;
         grid-template-columns: repeat(3,1fr);
         width: 100%;
-        max-width: 1200px;
+        max-width: 1550px;
         grid-template-areas: 
         "box1 box2 box3"
-        "box4 box5 box6"
-        "box7 box8 box9"
     }
 
     /* --------------- FEATURES BIG SCREEN END --------------- */
-}
-@media only screen and (min-width: 1600px) {
-
-    /* --------------- FEATURES BIG SCREEN START --------------- */
-
-    .features {
-        max-width: 1350px;
-    }
-    /* --------------- FEATURES BIG SCREEN START --------------- */
 }

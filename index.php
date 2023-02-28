@@ -106,8 +106,6 @@
                     <div class="feature__box feature__box1">
                         <i class="fas fa-street-view"></i>
                         <h4 class="feature__box-title1 uppercase">Ventas</h4>
-                        <p class="feature__box-description feature__box-description1">Consideramos un pilar fundamental de nuestra organización el asesoramiento y seguimiento de nuestros
-                            clientes en cuanto precios, tendencias y oportunidades de acuerdo al perfil de cada cliente.</p>
                     </div>
                     <div class="feature__box feature__box2">
                         <i class="fas fa-chart-line"></i>

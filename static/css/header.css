@@ -260,8 +260,8 @@ img {
 
   .anchor {
     display:block;
-    height:85px; 
-    margin-top:85px; 
+    height:70px; 
+    margin-top:70px; 
     visibility:hidden;
  }
 
@@ -351,13 +351,6 @@ img {
     body {
       margin: 0;
     }
-  
-    .anchor {
-      display:block;
-      height:110px; 
-      margin-top:-110px; 
-      visibility:hidden;
-   }
   
     .header {
       margin-top: 0;

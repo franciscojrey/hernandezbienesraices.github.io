@@ -11,8 +11,8 @@ if (isset($_POST['submit'])) {
         header("Location: index.php?contact=empty#form-span");
         exit();
     } else {
-        $mailTo = "rmackintosh@rmackintosh.com.ar";
-        $txt = "Email enviado desde el sitio web www.rmackintosh.com.ar \n\nNombre: ".$name.".\n\n"."Teléfono: ".$telefono.".\n\n"."Mail: ".$mailFrom.".\n\n"."Mensaje: ".$message;
+        $mailTo = "christian@hernandezbienesraices.com.ar";
+        $txt = "Enviado desde www.hernandezbienesraices.com.ar \n\nNombre: ".$name.".\n\n"."Teléfono: ".$telefono.".\n\n"."Mail: ".$mailFrom.".\n\n"."Mensaje: ".$message;
         
         mail($mailTo, $subject, $txt);
         header("Location: index.php?contact=success#form-span");
