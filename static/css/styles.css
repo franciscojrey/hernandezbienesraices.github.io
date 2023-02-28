@@ -178,7 +178,7 @@ p:last-child {
 }
 
 .btn-lg:hover {
-    color: #968b82;
+    color: #ff3434;
     background-color: var(--clr-white);
 }
 
